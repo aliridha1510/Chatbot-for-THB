@@ -1,5 +1,5 @@
 
-API.AI Ionic 2 App w/ Speech Recognition and Text to Speech
+#API.AI Ionic 2 App w/ Speech Recognition and Text to Speech
 
 You will need an API.AI account with your own Client Access Token => mine should answer questions about the weather if you use mine.
 
