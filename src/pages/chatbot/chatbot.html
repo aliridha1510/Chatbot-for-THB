@@ -1,5 +1,6 @@
-<ion-header>
-    <ion-navbar>
+<ion-header padding style="background-image:url('http://education.uic.edu/sites/default/files/img_robot.jpg');
+background-repeat : no-repeat;background-size:100% 50%">
+    <ion-navbar color="danger">
         <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
@@ -23,7 +24,7 @@
 <ion-footer>
     <ion-toolbar>
         <input type="text" placeholder="Type a message..." [(ngModel)]="message">
-        <button type="submit" small class="message-form-button" (click)="sendMessage(message)">Send <ion-icon name="send">
+        <button class="bb" type="submit" small class="message-form-button" (click)="sendMessage(message)">Send <ion-icon name="send">
           </ion-icon></button>
     </ion-toolbar>
 </ion-footer>

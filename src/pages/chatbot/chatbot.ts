@@ -3,8 +3,8 @@ import { Component, NgZone  } from '@angular/core';
 import { Platform, ToastController  } from 'ionic-angular';
 import { NavController } from 'ionic-angular';
 
-// declare let paltform: any
-// declare let window: any
+declare let paltform: any
+declare let window: any
 declare let ApiAIPlugin: any
 
 @Component({

@@ -1,12 +1,14 @@
 <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
 <ion-menu [content]="content">
-    <ion-header>
-        <ion-toolbar>
+    <ion-header padding style="background-image:url('http://education.uic.edu/sites/default/files/img_robot.jpg');
+background-repeat : no-repeat;background-size:100% 50%">
+        <ion-toolbar color="danger">
             <ion-title>Menu</ion-title>
         </ion-toolbar>
     </ion-header>
 
-    <ion-content>
+    <ion-content padding style="background-image:url('http://education.uic.edu/sites/default/files/img_robot.jpg');
+background-repeat : no-repeat;background-size:100% 50%">
         <ion-list>
             <button menuClose ion-item (click)="getPermission()">
         Allow Microphone
